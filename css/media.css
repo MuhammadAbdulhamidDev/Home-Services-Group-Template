@@ -1,0 +1,241 @@
+/*######################## $DeskTop First Design$ #############################*/
+/*# Most Common Used Break Points < 1400px _ 1200px _ 992px _ 768px _ 576px ## */
+/*#############################################################################*/
+
+/*#############################################################################*/
+/*########################## $XX-Large < (1400px)$ ############################*/
+/*#############################################################################*/
+@media (max-width: 1399.98px) {
+  /* Container */
+  .container {
+    max-width: 1140px;
+  }
+  /* Integrated Services Section */
+  .i-card-heading {
+    padding: 2rem 0rem;
+    font-size: 2rem;
+  }
+  .i-card-text {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    padding: 0rem 2rem;
+  }
+  .i-card-back > a {
+    font-size: 1.6rem !important;
+    padding: 1rem !important;
+  }
+}
+/*#############################################################################*/
+/*########################### $X-Large < (1200px)$ ############################*/
+/*#############################################################################*/
+@media (max-width: 1199.98px) {
+  /* Container */
+  .container {
+    max-width: 960px;
+  }
+  /* Header Section */
+  .menu-link:link,
+  .menu-link:visited {
+    font-size: 1.75rem;
+  }
+  .header-text {
+    font-size: 4.75rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.7rem;
+  }
+  /* Section Key Numbers */
+  .section-numbers {
+    padding: 15rem 0rem;
+  }
+  .numbers-main-div {
+    grid-template-columns: repeat(auto-fill, minmax(31rem, 1fr));
+    gap: 5rem 3rem;
+  }
+  /* Integrated Services Section */
+  .i-cards-div {
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  }
+  .i-card-heading {
+    font-size: 1.75rem;
+  }
+  .i-card-text {
+    font-size: 1.6rem;
+    line-height: 1.1;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .i-card-back > a {
+    font-size: 1.5rem !important;
+  }
+  /*  Footer */
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*#############################################################################*/
+/*############################ $Large < (992px)$ #############################*/
+/*#############################################################################*/
+@media (max-width: 991.98px) {
+  /* Container */
+  .container {
+    max-width: 720px;
+  }
+  /* Start Section Services */
+  .services-main-div {
+    gap: 3rem 2rem;
+    grid-template-areas:
+      "serv-h serv-h serv-h serv-h serv-h serv-h serv-h serv-h"
+      "soft-i soft-t soft-t soft-t tech-i tech-t tech-t tech-t"
+      "int-i int-t int-t int-t sec-i sec-t sec-t sec-t";
+  }
+  /* Integrated Services Section */
+  .i-card-text {
+    line-height: 1.25;
+  }
+}
+/*#############################################################################*/
+/*############################# $Medium < (768px)$ ############################*/
+/*#############################################################################*/
+@media (max-width: 767.98px) {
+  /* Container */
+  .container {
+    max-width: 540px;
+  }
+  .section-heading {
+    font-size: 3.5rem;
+  }
+  /* Header Section */
+  .menu-div {
+    justify-content: space-between;
+  }
+  .menu-link:link,
+  .menu-link:visited {
+    font-size: 1.5rem;
+  }
+  .header-text {
+    font-size: 4.25rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.65rem;
+  }
+  .animated-bar-div {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
+  }
+  .animated-bar-message {
+    padding: 2rem 1rem 0rem;
+    text-align: center;
+  }
+  .animated-bar-btn {
+    padding-bottom: 2rem;
+  }
+  /* Start Section Services */
+  .services-main-div {
+    grid-template-areas:
+      "serv-h serv-h serv-h serv-h serv-h serv-h serv-h serv-h"
+      "soft-i soft-i soft-t soft-t soft-t soft-t soft-t soft-t"
+      "tech-i tech-i tech-t tech-t tech-t tech-t tech-t tech-t"
+      "int-i int-i int-t int-t int-t int-t int-t int-t"
+      "sec-i sec-i sec-t sec-t sec-t sec-t sec-t sec-t";
+  }
+  /* Section Key Numbers */
+  .section-numbers {
+    padding: 10rem 0rem;
+  }
+  /* Integrated Services Section */
+  .i-cards-div {
+    padding-inline: 2.5rem;
+  }
+  .i-card-heading {
+    font-size: 2rem;
+  }
+  .i-card-text {
+    font-size: 1.7rem;
+    line-height: 1.25;
+    padding: 0rem 3rem;
+    margin-bottom: 2rem;
+  }
+  /*  Footer */
+  footer {
+    grid-template-columns: 100%;
+  }
+  .footer-div:first-of-type {
+    margin-bottom: 5rem;
+  }
+  .footer-icons-div {
+    margin-top: 3rem;
+  }
+}
+/*#############################################################################*/
+/*############################ $Small < (576px)$ ##############################*/
+/*#############################################################################*/
+@media (max-width: 575.98px) {
+  /* Container  */
+  .container {
+    max-width: 100%;
+  }
+  .section-heading {
+    font-size: 3.25rem !important;
+  }
+  /* Header Section */
+  .menu-div {
+    justify-content: space-evenly;
+  }
+  .menu-link:link,
+  .menu-link:visited {
+    font-size: 1.2rem;
+  }
+  .header-text {
+    font-size: 3.75rem;
+  }
+  .header-btns {
+    grid-template-columns: repeat(2, 12.5rem);
+    gap: 2rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.5rem;
+  }
+  .animated-bar-message {
+    font-size: 1.75rem;
+  }
+  .animated-bar-btn {
+    padding-bottom: 2rem;
+  }
+  /* Start Section Services */
+  .section-heading {
+    font-size: 3.5rem;
+  }
+  .services-main-div {
+    grid-template-areas:
+      "serv-h serv-h serv-h serv-h serv-h serv-h serv-h serv-h"
+      ". soft-i soft-i soft-t soft-t soft-t soft-t ."
+      ". tech-i tech-i tech-t tech-t tech-t tech-t ."
+      ". int-i int-i int-t int-t int-t int-t ."
+      ". sec-i sec-i sec-t sec-t sec-t sec-t .";
+  }
+  /* Section Cards */
+  .cards-main-div {
+    padding-inline: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(37.5rem, 1fr));
+  }
+}
+/*#############################################################################*/
+/*############################ $X-Small < (500px)$ ##############################*/
+/*#############################################################################*/
+@media (max-width: 500px) {
+  /* Integrated Services Section */
+  .i-cards-div {
+    padding-inline: 2rem;
+  }
+  .i-card-text {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    padding: 0rem 2rem;
+    margin-bottom: 1.25rem;
+  }
+}

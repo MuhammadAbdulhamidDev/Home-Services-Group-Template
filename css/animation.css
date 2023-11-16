@@ -1,0 +1,56 @@
+/* Logo's Animation */
+@keyframes logo {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  100% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+  }
+}
+
+/* Animated Bar Animation */
+@keyframes scalUp {
+  0% {
+    top: 150%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: -100%;
+    opacity: 0;
+  }
+}
+
+/* Our Partners Animations */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(50vw);
+    -webkit-transform: translateX(50vw);
+    -moz-transform: translateX(50vw);
+    -ms-transform: translateX(50vw);
+    -o-transform: translateX(50vw);
+  }
+  10%,
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50vw);
+    -webkit-transform: translateX(-50vw);
+    -moz-transform: translateX(-50vw);
+    -ms-transform: translateX(-50vw);
+    -o-transform: translateX(-50vw);
+  }
+}
